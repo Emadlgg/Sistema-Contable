@@ -15,18 +15,15 @@ const UserHome = () => {
 
   return (
     <div>
-                <NavbarProfile/>
-      <div>
+       <NavbarProfile/>
+       <body>
+       <div className="inicioUser">
         <header className="content header">
-          
           <h2 className="title">Bienvenido</h2>
           <p>Seleccione la operaciòn que desee realizar</p>
-          
         </header>
-      </div>
-      <body style={{ backgroundColor: " #1D1B1B" }} className="inicioUser">
-        <section className="content sau">
           <div className="box-container">
+            
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Activo Fijo</h3>
@@ -35,6 +32,7 @@ const UserHome = () => {
               </a>
               </Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Cuenta Contable</h3>
@@ -42,6 +40,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Entidad</h3>
@@ -49,6 +48,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Impuesto Adicional</h3>
@@ -58,6 +58,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Libro Compras</h3>
@@ -65,6 +66,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Partida Contable</h3>
@@ -72,6 +74,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Periodo</h3>
@@ -79,6 +82,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Plantilla Contable</h3>
@@ -86,6 +90,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Saldo Contable</h3>
@@ -93,6 +98,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Tipo Activo</h3>
@@ -100,6 +106,7 @@ const UserHome = () => {
                 Click Para ir
               </a></Link>
             </div>
+
             <div className="box">
               <i className="fab fa-angular"></i>
               <h3>Tipo Movimiento</h3>
@@ -108,7 +115,7 @@ const UserHome = () => {
               </a></Link>
             </div>
           </div>
-        </section>
+        </div>
       </body>
     </div>
   );

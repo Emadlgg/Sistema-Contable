@@ -18,9 +18,12 @@ import TipoMovimiento from '../TipoMovimientoLibroComprasVentas/TipoMovimiento'
 import TipoActivo from '../TipoActivo/TipoActivo'
 import SaldoContable from '../SaldoContable/SaldoContable'
 import PlantillaContableMaestro from '../PlantillaContableMaestro/PlantillaContableMaestro'
+import Usuarios from '../Usuarios/Usuarios'
+import Modal from '../Modal/Modal'
 import navbar from '../navbar/Navbar'
 import navbarHome from '../navbarHome/NavbarHome'
 import navbarProfile from '../navbarProfile/NavbarProfile'
+
 const Main = () => {
 
   const storageToken = localStorage.getItem('token')
@@ -47,6 +50,8 @@ const Main = () => {
         <Route path='/periodos' element={<Periodo />} />
         <Route path='/tipoActivo' element={<TipoActivo />} />
         <Route path='/tipoMovimientoLibroComprasVenta'element={<TipoMovimiento />} />
+        <Route path='/usuarios'element={<Usuarios />} />
+        <Route path='/modal' element={<Modal/>} />
         </Routes> 
     </div>
  )

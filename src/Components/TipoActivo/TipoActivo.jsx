@@ -9,7 +9,7 @@ import Navbar from "../navbar/Navbar";
 const TipoActivo = () => {
   return (
     
-    <div style={{backgroundColor: "#5DADE2"}}>
+    <div style={{backgroundColor: "#b0d9d5"}}>
         <div >
         <Navbar/>
         </div>

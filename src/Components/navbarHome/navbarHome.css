@@ -15,7 +15,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: rgb(204, 204, 204);
+  color: #ffffff;
 }
 
 .nav {
@@ -27,6 +27,7 @@ a {
 }
 .nav__brand {
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .nav__menu {

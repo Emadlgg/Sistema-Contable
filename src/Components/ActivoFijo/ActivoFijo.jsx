@@ -6,6 +6,7 @@ import Axios from "axios";
 import Swal from "sweetalert2";
 import Navbar from "../navbar/Navbar";
 
+
 const ActivoFijo = () => {
   return (
     <div style={{backgroundColor: "#5DADE2"}}>
@@ -100,6 +101,7 @@ const ActivoFijo = () => {
                                                     <th className="centrado">Depreciaciòn Acumulada</th>
                                                     <th className="centrado">Depreciaciòn Actual</th>
                                                     <th className="centrado">Caracterìsticas Activo Fijo</th>
+                                                    <th className="centrado">Opciones</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -115,7 +117,11 @@ const ActivoFijo = () => {
                                                     <td className="centrado">5462</td>
                                                     <td className="centrado">2654</td>
                                                     <td className="centrado">56445</td>
-                                                    <td className="centrado">54577</td>                    
+                                                    <td className="centrado">54577</td>
+                                                    <td className="centrado">
+                                                      <button><i className="fab fa-discord"></i></button>
+                                                      <button><i className="fab fa-android"></i></button>
+                                                      </td>                    
                                                 </tr>
                                             </tbody>
                         </table>

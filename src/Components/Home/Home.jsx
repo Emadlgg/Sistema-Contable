@@ -7,17 +7,17 @@ const Home = () => {
   return (
    <div>
     <NavbarHome/>
-    <body>
-    <div className="inicio">
-    <header className="content header">
-        <h2 className="title">Bienvenido</h2>
-        <p>
-            Bienvenido al sistema contable, para iniciar sesiòn dirìgase al botòn iniciar 
-            sesiòn que se encuentra en la parte superior izquierda de la pàgina
-        </p>
-    </header>
+     <body>
+        <div className="inicio">
+            <header className="content header">
+                 <h2 className="title">Bienvenido</h2>
+                     <p>
+                           Bienvenido al sistema contable, para iniciar sesiòn dirìgase al botòn iniciar 
+                           sesiòn que se encuentra en la parte superior izquierda de la pàgina
+                    </p>
+             </header>
 
-    <section className="content sau">
+        <section className="content sau"  style={{backgroundColor: "#FFFF"}}>
 
         <h2 className="title">Funciones</h2>
         <div className="box-container">
@@ -40,8 +40,8 @@ const Home = () => {
 
         </div>
 
-    </section>
-</div>
+        </section>
+    </div>
 </body>
    </div>
   );
